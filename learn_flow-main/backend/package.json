@@ -2,13 +2,13 @@
   "name": "learnflow-backend",
   "version": "1.0.0",
   "type": "module",
-  "main": "backend/src/server.js",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon backend/src/server.js",
-    "start": "node backend/src/server.js",
-    "import:data": "node backend/src/scripts/importCatalog.js",
-    "make:admin": "node backend/src/scripts/makeAdmin.js",
-    "check": "node --check backend/src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "import:data": "node src/scripts/importCatalog.js",
+    "make:admin": "node src/scripts/makeAdmin.js",
+    "check": "node --check src/server.js"
   },
   "dependencies": {
     "axios": "^1.8.4",
@@ -20,7 +20,7 @@
     "express": "^5.1.0",
     "express-rate-limit": "^7.5.0",
     "helmet": "^8.1.0",
-    "jsonwebtoken": "^9.0.2",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^8.13.2",
     "morgan": "^1.10.0",
     "nodemailer": "^10.0.14"
